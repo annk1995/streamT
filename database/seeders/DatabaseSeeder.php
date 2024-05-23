@@ -24,7 +24,7 @@ class DatabaseSeeder extends Seeder
             BodySeed::class,
             ActivitySeed::class,
            FetishSeed::class,
-           Preference::class,
+           PreferenceSeed::class,
             GenderSeed::class
         ]);
 
