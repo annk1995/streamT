@@ -26,7 +26,7 @@ class Talent extends Model
         'gender_id',
         // Add other fields as necessary
     ];
-    protected $table = 'talent';
+    // protected $table = 'talent';
 
     protected $hidden = [
         'password',
