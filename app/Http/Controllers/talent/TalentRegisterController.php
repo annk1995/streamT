@@ -31,7 +31,7 @@ class TalentRegisterController extends Controller
 
       public function store(Request $request)
       {
-        dd($request->all());
+        ($request->all());
           // Validate the request data
           $validatedData = $request->validate([
             'username' => 'required|string|max:255',
@@ -46,7 +46,11 @@ class TalentRegisterController extends Controller
             'email' => 'required|string|email|max:255|unique:talents',
             'profile_picture' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
             'identification_picture' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+
+            'face_picture' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+
             'password' => 'required|string|min:8|confirmed',
+            'confirmpassword' => 'required|string|min:8|confirmed',
             'type_id' => 'required|integer',
             'country_id' => 'required|integer',
 

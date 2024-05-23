@@ -101,7 +101,7 @@
                                                     <div class="input-group-icon"><i class="fas fa-key"></i></div>
                                                     <div class="help-block with-errors"></div>
                                                 </div>
-                                                <div class="form-group"><input class="form-control" name="password"
+                                                <div class="form-group"><input class="form-control" name="confirmpassword"
                                                                                id="cpass" type="password"
                                                                                placeholder="Confirm Password*" required
                                                                                data-error="Please retype password">
@@ -213,7 +213,7 @@
                                                     <div class="help-block with-errors"></div>
                                                 </div>
                                                 <div class="form-group validethnicity"><select class="form-control"
-                                                                                               name="ethicity_id"
+                                                                                               name="ethnicity_id"
                                                                                                id="gender" title=""
                                                                                                required
                                                                                                data-error="Please Select Ethnicity">
@@ -265,7 +265,7 @@
                                                     <div class="help-block with-errors"></div>
                                                 </div>
                                                 <div class="form-group validphone"><input class="form-control"
-                                                                                          name="phone" id="phone"
+                                                                                          name="number" id="phone"
                                                                                           type="text"
                                                                                           data-error="Please enter valid phone">
                                                     <div class="input-group-icon"><i class="fas fa-phone"></i>
@@ -318,7 +318,7 @@
                                                 <div class="help-block with-errors mandatory-error"></div>
                                                 <div class="form-group attachmentFile"><label
                                                         class="input-group-btn"> <span class="btn">
-                                                                    Browse&hellip; <input name="userfile" id="userfile"
+                                                                    Browse&hellip; <input name="profile_picture" id="userfile"
                                                                                           type="file"> </span> </label>
                                                     <input
                                                         type="text" id="attachedFile" class="form-control"
@@ -331,7 +331,7 @@
                                                 <div class="help-block with-errors mandatory-error"></div>
                                                 <div class="form-group attachmentFile"><label
                                                         class="input-group-btn"> <span class="btn">
-                                                                        Browse&hellip; <input name="userfile"
+                                                                        Browse&hellip; <input name="identification_picture"
                                                                                               id="userfile"
                                                                                               type="file"> </span>
                                                     </label> <input
@@ -345,7 +345,7 @@
                                                 <div class="help-block with-errors mandatory-error"></div>
                                                 <div class="form-group attachmentFile"><label
                                                         class="input-group-btn"> <span class="btn">
-                                                                        Browse&hellip; <input name="userfile"
+                                                                        Browse&hellip; <input name="face_picture"
                                                                                               id="userfile"
                                                                                               type="file"> </span>
                                                     </label> <input
