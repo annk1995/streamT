@@ -9,17 +9,18 @@ class Talent extends Model
 {
     use HasFactory;
     protected $fillable = [
+        'username',
         'name',
         'email',
         'address',
-        'number',
+        'phone',
         'dob',
         'profile_picture',
-        'identification_picture',
+        'identification_card',
         'face_picture',
         'password',
-        'confirmpassword',
-        'type_id',
+
+        'body_id',
         'country_id',
         'gender_id',
 
@@ -28,7 +29,7 @@ class Talent extends Model
         'gender_id',
         // Add other fields as necessary
     ];
-    // protected $table = 'talent';
+     protected $table = 'talents';
 
     protected $hidden = [
         'password',

@@ -42,16 +42,16 @@ class TalentRegisterController extends Controller
             'lname' => 'required|string|max:255',
             'address' => 'required|string|max:255',
             'dob' => 'required|string|max:255',
-            'number' => 'required|string|max:255',
+            'phone' => 'required|string|max:255',
             'email' => 'required|string|email|max:255|unique:talents',
             'profile_picture' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
-            'identification_picture' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+            'identification_card' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
 
             'face_picture' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
 
             'password' => 'required|string|min:8|confirmed',
-            'confirmpassword' => 'required|string|min:8|confirmed',
-            'type_id' => 'required|integer',
+
+            'body_id' => 'required|integer',
             'country_id' => 'required|integer',
 
 
@@ -79,7 +79,7 @@ class TalentRegisterController extends Controller
 
 
 
-        return redirect()->route('talent.talentregistration')->with('success', 'Talent registered successfully!');
+        return redirect()->route('talentregistration')->with('success', 'Talent registered successfully!');
 
 
 

@@ -101,7 +101,7 @@
                                                     <div class="input-group-icon"><i class="fas fa-key"></i></div>
                                                     <div class="help-block with-errors"></div>
                                                 </div>
-                                                <div class="form-group"><input class="form-control" name="confirmpassword"
+                                                <div class="form-group"><input class="form-control" name="password_confirmation"
                                                                                id="cpass" type="password"
                                                                                placeholder="Confirm Password*" required
                                                                                data-error="Please retype password">
@@ -199,7 +199,7 @@
                                                     <div class="help-block with-errors"></div>
                                                 </div>
                                                 <div class="form-group validtype"><select class="form-control"
-                                                                                          name="type_id" id="gender"
+                                                                                          name="body_id" id="gender"
                                                                                           title="" required
                                                                                           data-error="Please Select Bodytpe">
                                                         <option disabled selected>--- Select Your BodyType ---</option>
@@ -265,7 +265,7 @@
                                                     <div class="help-block with-errors"></div>
                                                 </div>
                                                 <div class="form-group validphone"><input class="form-control"
-                                                                                          name="number" id="phone"
+                                                                                          name="phone" id="phone"
                                                                                           type="text"
                                                                                           data-error="Please enter valid phone">
                                                     <div class="input-group-icon"><i class="fas fa-phone"></i>
@@ -331,7 +331,7 @@
                                                 <div class="help-block with-errors mandatory-error"></div>
                                                 <div class="form-group attachmentFile"><label
                                                         class="input-group-btn"> <span class="btn">
-                                                                        Browse&hellip; <input name="identification_picture"
+                                                                        Browse&hellip; <input name="identification_card"
                                                                                               id="userfile"
                                                                                               type="file"> </span>
                                                     </label> <input
