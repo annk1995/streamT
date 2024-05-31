@@ -31,7 +31,7 @@
     </li>
 
     <li class="nav-item">
-        <a class="nav-link" href="">
+        <a class="nav-link" href="{{ route('talentmessage') }}">
             <i class="fas fa-fw fa-history"></i>
             <span>Messages</span>
         </a>

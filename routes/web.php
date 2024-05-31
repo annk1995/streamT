@@ -9,9 +9,11 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\RecommendedController;
 use App\Http\Controllers\talent\HomeTalentController;
 use App\Http\Controllers\talent\MyContentController;
+use App\Http\Controllers\talent\TalentMessageController;
 use App\Http\Controllers\talent\TalentProfileController;
 use App\Http\Controllers\talent\TalentRegisterController;
 use App\Http\Controllers\talent\UploadController;
+
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -71,8 +73,9 @@ Route::get('/talentregistration', [TalentRegisterController::class, 'talentregis
 // talent store form data
 Route::post('/talentregister', [TalentRegisterController::class, 'store'])->name('talent.register');
 
+// message talent
 
-
+Route::get('/talentmessage', [TalentMessageController::class, 'talentmessage'])->name('talentmessage');
 
 
 
