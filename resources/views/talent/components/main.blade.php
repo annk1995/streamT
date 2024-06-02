@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/sighup/bootstrap-datepicker3.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/sighup/signup-form.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ asset('assets/css/sighup/signup-form-modern.css') }}" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/owl.theme.css') }}">
@@ -71,7 +72,7 @@
     <script src="{{ asset('assets/js/custom.js') }}" type="310bf9012176813d10c747da-text/javascript"></script>
 
     <script src="{{ asset('assets/js/signup/jquery-3.5.1.min.js')}}"></script>
-    
+
     <script src="{{ asset('assets/js/rocket-loader.min.js') }}"
         data-cf-settings="310bf9012176813d10c747da-|49" defer></script>
     <script defer
