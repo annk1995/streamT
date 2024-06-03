@@ -20,12 +20,12 @@
                           <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-8.webp" alt="avatar"
                             class="rounded-circle d-flex align-self-center me-3 shadow-1-strong" width="60">
                           <div class="pt-1">
-                            <p class="fw-bold mb-0">John Doe</p>
-                            <p class="small text-white">Hello, Are you there?</p>
+                            <p class="fw-bold  text-black mb-0">John Doe</p>
+                            <p class="small text-black">Hello, Are you there?</p>
                           </div>
                         </div>
                         <div class="pt-1">
-                          <p class="small text-white mb-1">Just now</p>
+                          <p class="small text-black mb-1">Just now</p>
                           <span class="badge bg-danger float-end">1</span>
                         </div>
                       </a>
@@ -51,8 +51,8 @@
                           <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-2.webp" alt="avatar"
                             class="rounded-circle d-flex align-self-center me-3 shadow-1-strong" width="60">
                           <div class="pt-1">
-                            <p class="fw-bold mb-0">Alex Steward</p>
-                            <p class="small text-white">Lorem ipsum dolor sit.</p>
+                            <p class="fw-bold text-black mb-0">Alex Steward</p>
+                            <p class="small text-black">Lorem ipsum dolor sit.</p>
                           </div>
                         </div>
                         <div class="pt-1">
@@ -66,8 +66,8 @@
                           <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-3.webp" alt="avatar"
                             class="rounded-circle d-flex align-self-center me-3 shadow-1-strong" width="60">
                           <div class="pt-1">
-                            <p class="fw-bold mb-0">Ashley Olsen</p>
-                            <p class="small text-white">Lorem ipsum dolor sit.</p>
+                            <p class="fw-bold text-black mb-0">Ashley Olsen</p>
+                            <p class="small text-black">Lorem ipsum dolor sit.</p>
                           </div>
                         </div>
                         <div class="pt-1">
@@ -97,11 +97,11 @@
                             class="rounded-circle d-flex align-self-center me-3 shadow-1-strong" width="60">
                           <div class="pt-1">
                             <p class="fw-bold mb-0">Lara Croft</p>
-                            <p class="small text-white">Lorem ipsum dolor sit.</p>
+                            <p class="small text-black>Lorem ipsum dolor sit.</p>
                           </div>
                         </div>
                         <div class="pt-1">
-                          <p class="small text-white mb-1">Yesterday</p>
+                          <p class="small text-black mb-1">Yesterday</p>
                         </div>
                       </a>
                     </li>
@@ -111,8 +111,8 @@
                           <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-6.webp" alt="avatar"
                             class="rounded-circle d-flex align-self-center me-3 shadow-1-strong" width="60">
                           <div class="pt-1">
-                            <p class="fw-bold mb-0">Brad Pitt</p>
-                            <p class="small text-white">Lorem ipsum dolor sit.</p>
+                            <p class="fw-bold text-black mb-0">Brad Pitt</p>
+                            <p class="small text-blacke">Lorem ipsum dolor sit.</p>
                           </div>
                         </div>
                         <div class="pt-1">
