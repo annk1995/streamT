@@ -49,13 +49,16 @@
     </x-app-layout> --}}
     {{-- //navbar --}}
     @include('talent.components.navbar')
-    @include('talent.components.sidebar')
+    <div id="wrapper">
+        @include('talent.components.sidebar')
 
 
-    @yield('content')
+        @yield('content')
 
 
 
+
+    </div>
     @include('talent.components.footer')
 
     <script data-cfasync="false"

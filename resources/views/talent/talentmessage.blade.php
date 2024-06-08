@@ -56,7 +56,7 @@
                           </div>
                         </div>
                         <div class="pt-1">
-                          <p class="small text-white mb-1">Yesterday</p>
+                          <p class="small text-black mb-1">Yesterday</p>
                         </div>
                       </a>
                     </li>
@@ -71,7 +71,7 @@
                           </div>
                         </div>
                         <div class="pt-1">
-                          <p class="small text-white mb-1">Yesterday</p>
+                          <p class="small text-black mb-1">Yesterday</p>
                         </div>
                       </a>
                     </li>
@@ -112,12 +112,12 @@
                             class="rounded-circle d-flex align-self-center me-3 shadow-1-strong" width="60">
                           <div class="pt-1">
                             <p class="fw-bold text-black mb-0">Brad Pitt</p>
-                            <p class="small text-blacke">Lorem ipsum dolor sit.</p>
+                            <p class="small text-black">Lorem ipsum dolor sit.</p>
                           </div>
                         </div>
                         <div class="pt-1">
-                          <p class="small text-white mb-1">5 mins ago</p>
-                          <span class="text-white float-end"><i class="fas fa-check" aria-hidden="true"></i></span>
+                          <p class="small text-black mb-1">5 mins ago</p>
+                          <span class="text-black float-end"><i class="fas fa-check" aria-hidden="true"></i></span>
                         </div>
                       </a>
                     </li>
@@ -137,8 +137,8 @@
                   <div class="card mask-custom">
                     <div class="card-header d-flex justify-content-between p-3"
                       style="border-bottom: 1px solid rgba(255,255,255,.3);">
-                      <p class="fw-bold mb-0">Brad Pitt</p>
-                      <p class="text-light small mb-0"><i class="far fa-clock"></i> 12 mins ago</p>
+                      <p class="fw-bold text-black mb-0">Brad Pitt</p>
+                      <p class="text-black small mb-0"><i class="far fa-clock"></i> 12 mins ago</p>
                     </div>
                     <div class="card-body">
                       <p class="mb-0">
