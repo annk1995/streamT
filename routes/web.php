@@ -13,7 +13,7 @@ use App\Http\Controllers\talent\TalentMessageController;
 use App\Http\Controllers\talent\TalentProfileController;
 use App\Http\Controllers\talent\TalentRegisterController;
 use App\Http\Controllers\talent\UploadController;
-
+use App\Http\Controllers\talent\UploadNavController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -76,6 +76,10 @@ Route::post('/talentregister', [TalentRegisterController::class, 'store'])->name
 // message talent
 
 Route::get('/talentmessage', [TalentMessageController::class, 'talentmessage'])->name('talentmessage');
+
+// nav upload
+Route::get('/navupload', [UploadNavController::class, 'navupload'])->name('navupload');
+
 
 
 
