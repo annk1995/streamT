@@ -7,5 +7,7 @@ use Illuminate\Http\Request;
 
 class UploadNavController extends Controller
 {
-    //
+   public function navupload(){
+        return view('talent.navupload');
+      }
 }
