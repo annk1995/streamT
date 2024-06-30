@@ -53,20 +53,30 @@
             </div>
         </li>
         <li class="nav-item dropdown no-arrow osahan-right-navbar-user">
-            <a class="nav-link dropdown-toggle user-dropdown-link" href="#" id="userDropdown" role="button"
+            <a class="nav-link dropdown-toggle user-dropdown-link" href="" id="userDropdown" role="button"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <img alt="Avatar" src="img/user.png">
-                Osahan
+                <img alt="" src="img/user.png">
+               Profile
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-                <a class="dropdown-item" href="account.html"><i class="fas fa-fw fa-user-circle"></i> &nbsp; My
+                <a class="dropdown-item" href="{{ route('modelprofile') }}"><i class="fas fa-fw fa-user-circle"></i> &nbsp; My
                     Account</a>
                 <a class="dropdown-item" href="subscriptions.html"><i class="fas fa-fw fa-video"></i> &nbsp;
                     Subscriptions</a>
                 <a class="dropdown-item" href="settings.html"><i class="fas fa-fw fa-cog"></i> &nbsp; Settings</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal"><i
-                        class="fas fa-fw fa-sign-out-alt"></i> &nbsp; Logout</a>
+                <a class="dropdown-item"><i
+                        class="fas fa-fw fa-sign-out-alt"></i> &nbsp;
+                        <form method="POST" action="{{ route('logout') }}">
+                            @csrf
+
+                            <x-dropdown-link :href="route('logout')"
+                                    onclick="event.preventDefault();
+                                                this.closest('form').submit();">
+                                {{ __('Log Out') }}
+                            </x-dropdown-link>
+                        </form>
+                    </a>
             </div>
         </li>
     </ul>
